@@ -1,0 +1,107 @@
+---- qbsp / ericw-tools 2.0.0-alpha10-30-gf9d0c901 ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+Input file: C:\quake-leveldesign-starterkit-20260105-windows\working\quake\multiplayerMap1-compile.map
+Output file: C:\quake-leveldesign-starterkit-20260105-windows\working\quake\multiplayerMap1.bsp
+
+INFO: using built-in palette.
+WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \p
+WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \p
+     2 entities
+     3 unique textures
+    44 texinfos
+    66 unique planes
+
+INFO: world extents calculated to 6100 units
+    12 brushes
+    72 sides
+    45 side bevels
+
+            0 texture frames added
+WARNING: unable to find texture skip
+Processing hull 0...
+    12 SOLID brushes
+    12 brushes total
+    72 visible sides
+INFO: calculating BSP for 12 brushes with 72 sides
+    12 brushes
+    72 visible faces
+    74 nodes
+    74 mid-split nodes
+    75 leaves
+    54 EMPTY leafs
+    21 SOLID leafs
+    75 leafs total
+    11 max tree height
+     7 avg tree height
+    3 tiny portals
+    324 tree portals
+    52 outside leaves
+    0 detail filled leafs
+    12 brushes
+     8 visible faces
+    64 non-visible faces
+    72 nodes
+    63 non-visible nodes
+    72 expensive split nodes
+    73 leaves
+    52 EMPTY leafs
+    21 SOLID leafs
+    73 leafs total
+    12 max tree height
+     7 avg tree height
+    3 tiny portals
+    322 tree portals
+    50 outside leaves
+    0 detail filled leafs
+    3 tiny portals
+    322 tree portals
+    22 sides visible
+     11 makefaces
+      4 merged
+    484 subdivided
+    65 nodes pruned
+    2 player-occupiable leaves
+    2 clusters of leaves
+    1 vis portals
+    6 SOLID leafs
+    2 EMPTY leafs
+    8 leafs total
+    8 max tree height
+    5 avg tree height
+      444 edges added by tjunctions
+      488 faces optimized through MWT
+    1,421 triangles computed from MWT
+      155 faces created via optimization of MWT triangles
+    1,358 edges
+      646 faces
+Processing hull 1...
+Processing hull 2...
+Writing multiplayerMap1.bsp as Quake BSP bsp29
+Wrote multiplayerMap1.bsp
+
+count   lump name    byte size 
+      1 models               64
+     20 planes              400
+    714 vertexes           8568
+      7 nodes               168
+      6 texinfos            240
+    646 faces             12920
+     14 clipnodes           112
+      3 leafs                84
+    663 marksurfaces       1326
+   1359 edges              5436
+   2716 surfedges         10864
+      3 textures          43616
+        lightdata             0
+        visdata               0
+        entdata             215
+
+0.041s seconds elapsed
+
+

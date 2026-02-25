@@ -1,0 +1,23 @@
+---- vis / ericw-tools 2.0.0-alpha10-30-gf9d0c901 ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+LoadBSPFile: 'hopeThisWorks.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+Loading extended texinfo flags from hopeThisWorks.texinfo.json...
+     9 leafs
+     9 clusters
+    15 portals
+Calculating Base Vis:
+Calculating Full Vis:
+Expanding clusters...
+average leafs visible: 6
+c_noclip: 0
+c_chains: 103
+visdatasize:19  compressed from 18
+Writing hopeThisWorks.bsp as Quake BSP bsp29
+0.00s elapsed
+
+

@@ -1,0 +1,37 @@
+---- light / ericw-tools 2.0.0-alpha10-30-gf9d0c901 ----
+LoadBSPFile: 'hopeThisWorks.bsp'
+BSP is version Quake BSP bsp29
+INFO: using built-in palette.
+img::ConvertTextures: WARNING: invalid size data for 
+Loading extended texinfo flags from hopeThisWorks.texinfo.json...
+Loading extended content flags from hopeThisWorks.content.json...
+WARNING: hopeThisWorks.bsp[line 3]: Unrecognised string escape - \q
+WARNING: hopeThisWorks.bsp[line 3]: Unrecognised string escape - \e
+WARNING: hopeThisWorks.bsp[line 3]: Unrecognised string escape - \q
+WARNING: hopeThisWorks.bsp[line 3]: Unrecognised string escape - \Q
+8 entities read, 5 are lights.
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+Embree_TraceInit: Embree version: 4.4.0
+Embree_TraceInit: 
+	0 sky faces
+	86 solid faces
+	0 filtered faces
+	0 shadow-casting skip faces
+SetupLights: 5 initial lights
+SetupLights: 5 after surface lights
+SetupLights: 5 after jittering
+Final count: 5 lights, 0 suns in use.
+0 surface light points in use.
+map uses color: false
+lightmap size (total): 7484
+Lighting Completed.
+
+0 switchable light styles (32 max)
+Writing hopeThisWorks.bsp as Quake BSP bsp29
+0.016s seconds elapsed
+0 empty lightmaps
+
+

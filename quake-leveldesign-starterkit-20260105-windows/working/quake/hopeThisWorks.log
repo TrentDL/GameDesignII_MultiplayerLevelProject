@@ -1,0 +1,103 @@
+---- qbsp / ericw-tools 2.0.0-alpha10-30-gf9d0c901 ----
+
+--- Options Summary ---
+    "nocolor" was set to "1" (from command line)
+
+Input file: C:\quake-leveldesign-starterkit-20260105-windows\working\quake\hopeThisWorks-compile.map
+Output file: C:\quake-leveldesign-starterkit-20260105-windows\working\quake\hopeThisWorks.bsp
+
+INFO: using built-in palette.
+WARNING: hopeThisWorks-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: hopeThisWorks-compile.map[line 4]: Unrecognised string escape - \e
+WARNING: hopeThisWorks-compile.map[line 4]: Unrecognised string escape - \q
+WARNING: hopeThisWorks-compile.map[line 4]: Unrecognised string escape - \Q
+     8 entities
+    11 unique textures
+    65 texinfos
+    62 unique planes
+
+INFO: world extents calculated to 1576 units
+     25 brushes
+    150 sides
+
+            0 texture frames added
+WARNING: unable to find texture skip
+Processing hull 0...
+    25 SOLID brushes
+    25 brushes total
+    150 visible sides
+INFO: calculating BSP for 25 brushes with 150 sides
+     25 brushes
+    150 visible faces
+    226 nodes
+    185 expensive split nodes
+     41 mid-split nodes
+    227 leaves
+    133 EMPTY leafs
+     94 SOLID leafs
+    227 leafs total
+    13 max tree height
+     9 avg tree height
+    901 tree portals
+    111 outside leaves
+    0 detail filled leafs
+     25 brushes
+     39 visible faces
+    111 non-visible faces
+    94 nodes
+    63 non-visible nodes
+    94 expensive split nodes
+    95 leaves
+    61 EMPTY leafs
+    34 SOLID leafs
+    95 leafs total
+    12 max tree height
+     8 avg tree height
+    429 tree portals
+    52 outside leaves
+    0 detail filled leafs
+    429 tree portals
+    100 sides visible
+    50 makefaces
+     7 merged
+    36 subdivided
+    65 nodes pruned
+     9 player-occupiable leaves
+     9 clusters of leaves
+    15 vis portals
+    21 SOLID leafs
+     9 EMPTY leafs
+    30 leafs total
+    12 max tree height
+     7 avg tree height
+     42 edges added by tjunctions
+     79 faces optimized through MWT
+    200 triangles computed from MWT
+      7 faces created via optimization of MWT triangles
+    186 edges
+     86 faces
+Processing hull 1...
+Processing hull 2...
+Writing hopeThisWorks.bsp as Quake BSP bsp29
+Wrote hopeThisWorks.bsp
+
+count   lump name    byte size 
+      1 models               64
+     50 planes             1000
+    104 vertexes           1248
+     29 nodes               696
+     34 texinfos           1360
+     86 faces              1720
+     86 clipnodes           688
+     10 leafs               280
+     92 marksurfaces        184
+    187 edges               748
+    372 surfedges          1488
+     11 textures          54848
+        lightdata             0
+        visdata               0
+        entdata             604
+
+0.049s seconds elapsed
+
+
