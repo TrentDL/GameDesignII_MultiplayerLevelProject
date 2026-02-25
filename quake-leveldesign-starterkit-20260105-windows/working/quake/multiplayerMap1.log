@@ -14,72 +14,73 @@ WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \p
 WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \p
      2 entities
      3 unique textures
-    54 texinfos
-    74 unique planes
+    55 texinfos
+    76 unique planes
 
 INFO: world extents calculated to 6100 units
-     17 brushes
-    101 sides
-     61 side bevels
+     19 brushes
+    113 sides
+     71 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
 Processing hull 0...
-    17 SOLID brushes
-    17 brushes total
-    101 visible sides
-INFO: calculating BSP for 17 brushes with 101 sides
-     17 brushes
-    101 visible faces
-    94 nodes
-    94 mid-split nodes
-    95 leaves
-    66 EMPTY leafs
-    29 SOLID leafs
-    95 leafs total
-    11 max tree height
+    19 SOLID brushes
+    19 brushes total
+    113 visible sides
+INFO: calculating BSP for 19 brushes with 113 sides
+     19 brushes
+    113 visible faces
+    105 nodes
+    105 mid-split nodes
+    106 leaves
+     72 EMPTY leafs
+     34 SOLID leafs
+    106 leafs total
+    13 max tree height
      8 avg tree height
     10 tiny portals
-    408 tree portals
-    62 outside leaves
+    458 tree portals
+    63 outside leaves
     0 detail filled leafs
-    17 brushes
-    14 visible faces
-    87 non-visible faces
-    83 nodes
-    71 non-visible nodes
-    83 expensive split nodes
-    84 leaves
+    19 brushes
+    24 visible faces
+    89 non-visible faces
+    84 nodes
+    64 non-visible nodes
+    84 expensive split nodes
+    85 leaves
     58 EMPTY leafs
-    26 SOLID leafs
-    84 leafs total
+    27 SOLID leafs
+    85 leafs total
     12 max tree height
-     7 avg tree height
+     8 avg tree height
     4 tiny portals
-    371 tree portals
-    56 outside leaves
+    377 tree portals
+    53 outside leaves
     0 detail filled leafs
     4 tiny portals
-    371 tree portals
-    30 sides visible
-     15 makefaces
-      3 merged
-    514 subdivided
-    72 nodes pruned
-    2 player-occupiable leaves
-    2 clusters of leaves
-    1 vis portals
-    10 SOLID leafs
-     2 EMPTY leafs
-    12 leafs total
-    7 max tree height
-    5 avg tree height
-      488 edges added by tjunctions
-      525 faces optimized through MWT
-    1,539 triangles computed from MWT
-      173 faces created via optimization of MWT triangles
-    1,469 edges
-      699 faces
+    377 tree portals
+    58 sides visible
+     29 makefaces
+      2 merged
+    697 subdivided
+    65 nodes pruned
+    5 player-occupiable leaves
+    5 clusters of leaves
+    4 vis portals
+    15 SOLID leafs
+     5 EMPTY leafs
+    20 leafs total
+    8 max tree height
+    6 avg tree height
+        1 edges degenerated
+      885 edges added by tjunctions
+      713 faces optimized through MWT
+    2,317 triangles computed from MWT
+      322 faces created via optimization of MWT triangles
+    2,210 edges
+    1,046 faces
 Processing hull 1...
 Processing hull 2...
 Writing multiplayerMap1.bsp as Quake BSP bsp29
@@ -87,21 +88,21 @@ Wrote multiplayerMap1.bsp
 
 count   lump name    byte size 
       1 models               64
-     23 planes              460
-    772 vertexes           9264
-     11 nodes               264
-     10 texinfos            400
-    699 faces             13980
-     22 clipnodes           176
-      3 leafs                84
-    699 marksurfaces       1398
-   1470 edges              5880
-   2938 surfedges         11752
+     42 planes              840
+   1166 vertexes          13992
+     19 nodes               456
+     18 texinfos            720
+   1046 faces             20920
+     46 clipnodes           368
+      6 leafs               168
+   1046 marksurfaces       2092
+   2211 edges              8844
+   4420 surfedges         17680
       3 textures          43616
         lightdata             0
         visdata               0
         entdata             215
 
-0.053s seconds elapsed
+0.064s seconds elapsed
 
 
