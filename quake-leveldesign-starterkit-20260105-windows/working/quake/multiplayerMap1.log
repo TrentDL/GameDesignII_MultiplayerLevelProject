@@ -12,75 +12,77 @@ WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \e
 WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \q
 WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \p
 WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \p
-     2 entities
-     3 unique textures
-    55 texinfos
-    76 unique planes
+      2 entities
+      5 unique textures
+     95 texinfos
+    140 unique planes
 
 INFO: world extents calculated to 6100 units
-     19 brushes
-    113 sides
-     71 side bevels
+     34 brushes
+    200 sides
+    125 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
+WARNING: unable to find texture __TB_empty
 Processing hull 0...
-    19 SOLID brushes
-    19 brushes total
-    113 visible sides
-INFO: calculating BSP for 19 brushes with 113 sides
-     19 brushes
-    113 visible faces
-    105 nodes
-    105 mid-split nodes
-    106 leaves
-     72 EMPTY leafs
-     34 SOLID leafs
-    106 leafs total
-    13 max tree height
-     8 avg tree height
-    10 tiny portals
-    458 tree portals
-    63 outside leaves
+    34 SOLID brushes
+    34 brushes total
+    200 visible sides
+INFO: calculating BSP for 34 brushes with 200 sides
+     34 brushes
+    200 visible faces
+    616 nodes
+     82 expensive split nodes
+    534 mid-split nodes
+    617 leaves
+    337 EMPTY leafs
+    280 SOLID leafs
+    617 leafs total
+    16 max tree height
+    11 avg tree height
+    31 tiny portals
+    2,451 tree portals
+    232 outside leaves
     0 detail filled leafs
-    19 brushes
-    24 visible faces
-    89 non-visible faces
-    84 nodes
-    64 non-visible nodes
-    84 expensive split nodes
-    85 leaves
-    58 EMPTY leafs
-    27 SOLID leafs
-    85 leafs total
-    12 max tree height
-     8 avg tree height
-    4 tiny portals
-    377 tree portals
-    53 outside leaves
+     34 brushes
+     73 visible faces
+    127 non-visible faces
+    277 nodes
+    145 non-visible nodes
+    277 expensive split nodes
+    278 leaves
+    161 EMPTY leafs
+    117 SOLID leafs
+    278 leafs total
+    20 max tree height
+    11 avg tree height
+    21 tiny portals
+    1,218 tree portals
+    117 outside leaves
     0 detail filled leafs
-    4 tiny portals
-    377 tree portals
-    58 sides visible
-     29 makefaces
-      2 merged
-    697 subdivided
-    65 nodes pruned
-    5 player-occupiable leaves
-    5 clusters of leaves
-    4 vis portals
-    15 SOLID leafs
-     5 EMPTY leafs
-    20 leafs total
-    8 max tree height
-    6 avg tree height
-        1 edges degenerated
-      885 edges added by tjunctions
-      713 faces optimized through MWT
-    2,317 triangles computed from MWT
-      322 faces created via optimization of MWT triangles
-    2,210 edges
-    1,046 faces
+    21 tiny portals
+    1,218 tree portals
+    384 sides visible
+      192 makefaces
+       48 merged
+    1,480 subdivided
+    165 nodes pruned
+    1 tiny portals
+     44 player-occupiable leaves
+     44 clusters of leaves
+    120 vis portals
+     69 SOLID leafs
+     44 EMPTY leafs
+    113 leafs total
+    15 max tree height
+    10 avg tree height
+    2,198 edges added by tjunctions
+    1,600 faces optimized through MWT
+    5,418 triangles computed from MWT
+      789 faces created via optimization of MWT triangles
+    5,141 edges
+    2,413 faces
 Processing hull 1...
 Processing hull 2...
 Writing multiplayerMap1.bsp as Quake BSP bsp29
@@ -88,21 +90,21 @@ Wrote multiplayerMap1.bsp
 
 count   lump name    byte size 
       1 models               64
-     42 planes              840
-   1166 vertexes          13992
-     19 nodes               456
-     18 texinfos            720
-   1046 faces             20920
-     46 clipnodes           368
-      6 leafs               168
-   1046 marksurfaces       2092
-   2211 edges              8844
-   4420 surfedges         17680
-      3 textures          43616
+    137 planes             2740
+   2707 vertexes          32484
+    112 nodes              2688
+     51 texinfos           2040
+   2413 faces             48260
+    374 clipnodes          2992
+     45 leafs              1260
+   2567 marksurfaces       5134
+   5142 edges             20568
+  10268 surfedges         41072
+      5 textures          65424
         lightdata             0
         visdata               0
-        entdata             215
+        entdata             217
 
-0.064s seconds elapsed
+0.106s seconds elapsed
 
 
