@@ -1,5 +1,5 @@
 5
-multiplayerMap1_______kills:__0/__0____
+PawnBase1_____________kills:__0/__0____
 4097.000000
 100.000000
 0.000000
@@ -17,8 +17,8 @@ multiplayerMap1_______kills:__0/__0____
 0.000000
 0.000000
 0
-multiplayerMap1
-121.900212
+PawnBase1
+513.938184
 m
 mmnmmommommnonmmonqnmmo
 abcdefghijklmnopqrstuvwxyzyxwvutsrqponmlkjihgfedcba
@@ -87,10 +87,10 @@ a
 "self" "1"
 "other" "0"
 "world" "0"
-"time" "121.883293"
-"frametime" "0.016915"
+"time" "513.922180"
+"frametime" "0.016016"
 "force_retouch" "0.000000"
-"mapname" "multiplayerMap1"
+"mapname" "PawnBase1"
 "deathmatch" "0.000000"
 "coop" "0.000000"
 "teamplay" "0.000000"
@@ -115,14 +115,14 @@ a
 "parm14" "0.000000"
 "parm15" "0.000000"
 "parm16" "0.000000"
-"v_forward_x" "0.973026"
-"v_forward_y" "-0.227534"
-"v_forward_z" "-0.038053"
-"v_up_x" "0.037053"
-"v_up_y" "-0.008665"
-"v_up_z" "0.999276"
-"v_right_x" "-0.227699"
-"v_right_y" "-0.973732"
+"v_forward_x" "-0.999990"
+"v_forward_y" "-0.004410"
+"v_forward_z" "-0.001150"
+"v_up_x" "-0.001150"
+"v_up_y" "-0.000005"
+"v_up_z" "0.999999"
+"v_right_x" "-0.004410"
+"v_right_y" "0.999990"
 "v_right_z" "-0.000000"
 "trace_allsolid" "0.000000"
 "trace_startsolid" "0.000000"
@@ -158,9 +158,9 @@ a
 "string_null" ""
 "empty_float" "0.000000"
 "newmis" "0"
-"activator" "1"
+"activator" "0"
 "damage_attacker" "0"
-"framecount" "7271.000000"
+"framecount" "32022.000000"
 "skill" "0.000000"
 "enemy_vis" "0.000000"
 "enemy_infront" "0.000000"
@@ -193,19 +193,19 @@ a
 "movetype" "7.000000"
 "solid" "4.000000"
 "classname" "worldspawn"
-"model" "maps/multiplayerMap1.bsp"
+"model" "maps/PawnBase1.bsp"
 "wad" "C:\uake-leveldesign-starterkit-20260105-windows\xtras\uake\rototype-wad\rototype_basic_1_3.wad"
 }
 { // #1
 "modelindex" "2.000000"
-"absmin" "2390.968750 1076.790649 55.031250"
-"absmax" "2424.968750 1110.790649 113.031250"
+"absmin" "1084.031250 962.960938 1087.031250"
+"absmax" "1118.031250 996.960938 1145.031250"
 "movetype" "3.000000"
 "solid" "3.000000"
-"origin" "2407.968750 1093.790649 80.031250"
-"oldorigin" "2403.442627 1095.006836 80.031250"
-"velocity" "0.000000 -37.889633 0.000000"
-"angles" "-0.726929 -13.161621 -0.042565"
+"origin" "1101.031250 979.960938 1112.031250"
+"oldorigin" "1101.054810 982.769714 1112.003662"
+"velocity" "0.000000 -87.688400 0.000000"
+"angles" "-0.021973 -179.747314 -6.646147"
 "classname" "player"
 "model" "progs/player.mdl"
 "frame" "6.000000"
@@ -213,31 +213,30 @@ a
 "maxs" "16.000000 16.000000 32.000000"
 "size" "32.000000 32.000000 56.000000"
 "think" "player_run"
-"nextthink" "121.983482"
-"health" "97.000000"
+"nextthink" "514.004089"
+"health" "95.000000"
 "weapon" "1.000000"
 "weaponmodel" "progs/v_shot.mdl"
 "currentammo" "25.000000"
 "ammo_shells" "25.000000"
-"items" "12545.000000"
+"items" "4353.000000"
 "takedamage" "2.000000"
 "view_ofs" "0.000000 0.000000 22.000000"
-"v_angle" "2.180786 -13.161621 0.000000"
+"v_angle" "0.065918 -179.747314 0.000000"
 "netname" "player"
 "flags" "4616.000000"
 "colormap" "1.000000"
 "team" "1.000000"
 "max_health" "100.000000"
-"armortype" "0.300000"
-"armorvalue" "98.000000"
 "watertype" "-1.000000"
 "noise" "player/pain5.wav"
 "th_pain" "player_pain"
 "th_die" "PlayerDie"
 "walkframe" "1.000000"
-"attack_finished" "1.252099"
-"pain_finished" "67.013336"
-"air_finished" "133.883301"
+"attack_finished" "1.244273"
+"pain_finished" "441.400269"
+"jump_flag" "-218.004486"
+"air_finished" "525.922180"
 "deathtype" "falling"
 "dmg" "2.000000"
 }
@@ -273,10 +272,9 @@ a
 "classname" "info_player_deathmatch"
 }
 { // #7
-"absmin" "-361.000000 983.000000 907.000000"
-"absmax" "-359.000000 985.000000 909.000000"
-"origin" "-360.000000 984.000000 908.000000"
-"angles" "0.000000 180.000000 0.000000"
+"absmin" "-473.000000 919.000000 907.000000"
+"absmax" "-471.000000 921.000000 909.000000"
+"origin" "-472.000000 920.000000 908.000000"
 "classname" "info_player_deathmatch"
 }
 { // #8
@@ -312,50 +310,33 @@ a
 }
 { // #13
 "modelindex" "28.000000"
-"absmin" "-31.000000 737.000000 1280.031250"
-"absmax" "31.000000 799.000000 1336.031250"
+"absmin" "-31.000000 737.000000 1339.031250"
+"absmax" "31.000000 799.000000 1395.031250"
 "movetype" "6.000000"
-"origin" "0.000000 768.000000 1280.031250"
+"solid" "1.000000"
+"origin" "0.000000 768.000000 1339.031250"
 "classname" "item_armor1"
+"model" "progs/armor.mdl"
 "mins" "-16.000000 -16.000000 0.000000"
 "maxs" "16.000000 16.000000 56.000000"
 "size" "32.000000 32.000000 56.000000"
 "touch" "armor_touch"
-"think" "SUB_regen"
+"think" "PlaceItem"
 "flags" "768.000000"
 "mdl" "progs/armor.mdl"
 }
 { // #14
+"absmin" "1103.000000 1055.000000 47.000000"
+"absmax" "1105.000000 1057.000000 49.000000"
+"origin" "1104.000000 1056.000000 48.000000"
+"classname" "info_player_start"
+}
+{ // #15
 "absmin" "-1381.000000 1135.000000 71.000000"
 "absmax" "-1379.000000 1137.000000 73.000000"
 "origin" "-1380.000000 1136.000000 72.000000"
 "classname" "info_player_deathmatch"
 }
-{ // #15
-"absmin" "-849.000000 927.000000 539.000000"
-"absmax" "-847.000000 929.000000 541.000000"
-"origin" "-848.000000 928.000000 540.000000"
-"classname" "info_player_start"
-}
 { // #16
-"modelindex" "29.000000"
-"absmin" "1553.000000 657.000000 1120.031250"
-"absmax" "1615.000000 719.000000 1176.031250"
-"movetype" "6.000000"
-"solid" "1.000000"
-"origin" "1568.000000 672.000000 1120.031250"
-"classname" "item_shells"
-"model" "maps/b_shell0.bsp"
-"maxs" "32.000000 32.000000 56.000000"
-"size" "32.000000 32.000000 56.000000"
-"touch" "ammo_touch"
-"think" "PlaceItem"
-"weapon" "1.000000"
-"netname" "shells"
-"flags" "768.000000"
-"mdl" "maps/b_shell0.bsp"
-"aflag" "20.000000"
 }
-{ // #17
-}
-// 18 edicts
+// 17 edicts
