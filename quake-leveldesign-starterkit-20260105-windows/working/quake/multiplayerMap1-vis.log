@@ -7,17 +7,17 @@ LoadBSPFile: 'multiplayerMap1.bsp'
 BSP is version Quake BSP bsp29
 INFO: using built-in palette.
 Loading extended texinfo flags from multiplayerMap1.texinfo.json...
-  1143 leafs
-   258 clusters
-   893 portals
+  3120 leafs
+  1044 clusters
+  3235 portals
 Calculating Base Vis:
 Calculating Full Vis:
 Expanding clusters...
-average leafs visible: 910
+average leafs visible: 1045
 c_noclip: 0
-c_chains: 1273141
-visdatasize:23779  compressed from 163449
+c_chains: 5526487
+visdatasize:86413  compressed from 1216800
 Writing multiplayerMap1.bsp as Quake BSP bsp29
-0.37s elapsed
+1.03s elapsed
 
 

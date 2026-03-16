@@ -12,116 +12,111 @@ WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \e
 WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \q
 WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \p
 WARNING: multiplayerMap1-compile.map[line 4]: Unrecognised string escape - \p
-       15 entities
-        9 unique textures
-      646 texinfos
-    1,774 unique planes
+       27 entities
+       20 unique textures
+    1,797 texinfos
+    3,478 unique planes
 
 INFO: world extents calculated to 8168 units
-      354 brushes
-    2,560 sides
-    1,026 side bevels
+      747 brushes
+    5,480 sides
+    2,356 side bevels
 
             0 texture frames added
 WARNING: unable to find texture skip
 WARNING: unable to find texture __TB_empty
 Processing hull 0...
-    229 SOLID brushes
-      5 DETAIL_WALL | DETAIL brushes
-    120 MIST | MIRROR_INSIDE_SET | TRANSLUCENT | DETAIL brushes
-    354 brushes total
-    2,560 visible sides
-INFO: calculating BSP for 354 brushes with 2560 sides
-      354 brushes
-    2,560 visible faces
-    5,287 nodes
-    2,735 expensive split nodes
-    2,552 mid-split nodes
-    5,288 leaves
-    2,971 EMPTY leafs
-        3 SOLID | DETAIL_WALL | MIST | MIRROR_INSIDE_SET leafs
-    1,934 SOLID leafs
-      260 MIST | MIRROR_INSIDE_SET | TRANSLUCENT | DETAIL leafs
-       21 DETAIL_WALL | DETAIL leafs
-       83 SOLID | MIST | MIRROR_INSIDE_SET leafs
-        7 SOLID | DETAIL_WALL leafs
-        9 DETAIL_WALL | MIST | MIRROR_INSIDE_SET | TRANSLUCENT | DETAIL leafs
-    5,288 leafs total
+    494 SOLID brushes
+    253 MIST | MIRROR_INSIDE_SET | TRANSLUCENT | DETAIL brushes
+    747 brushes total
+    5,480 visible sides
+INFO: calculating BSP for 747 brushes with 5480 sides
+      747 brushes
+    5,480 visible faces
+    11,329 nodes
+     8,611 expensive split nodes
+     2,718 mid-split nodes
+    11,330 leaves
+     5,380 EMPTY leafs
+     5,115 SOLID leafs
+       671 MIST | MIRROR_INSIDE_SET | TRANSLUCENT | DETAIL leafs
+       164 SOLID | MIST | MIRROR_INSIDE_SET leafs
+    11,330 leafs total
     36 max tree height
-    17 avg tree height
-    138 tiny portals
-    22,562 tree portals
-    1,426 outside leaves
+    19 avg tree height
+    237 tiny portals
+    47,371 tree portals
+    1,679 outside leaves
     0 detail filled leafs
-      354 brushes
-    1,446 visible faces
-    1,114 non-visible faces
-    2,711 nodes
-    1,108 non-visible nodes
-    2,711 expensive split nodes
-    2,712 leaves
-    1,484 EMPTY leafs
-        3 SOLID | DETAIL_WALL | MIST | MIRROR_INSIDE_SET leafs
-      842 SOLID leafs
-       19 DETAIL_WALL | DETAIL leafs
-      254 MIST | MIRROR_INSIDE_SET | TRANSLUCENT | DETAIL leafs
-       86 SOLID | MIST | MIRROR_INSIDE_SET leafs
-       16 SOLID | DETAIL_WALL leafs
-        8 DETAIL_WALL | MIST | MIRROR_INSIDE_SET | TRANSLUCENT | DETAIL leafs
-    2,712 leafs total
-    34 max tree height
-    18 avg tree height
-    99 tiny portals
-    12,533 tree portals
-    595 outside leaves
+      747 brushes
+    3,819 visible faces
+    1,661 non-visible faces
+    7,105 nodes
+    1,926 non-visible nodes
+    7,105 expensive split nodes
+    7,106 leaves
+    3,414 EMPTY leafs
+    2,887 SOLID leafs
+      657 MIST | MIRROR_INSIDE_SET | TRANSLUCENT | DETAIL leafs
+      148 SOLID | MIST | MIRROR_INSIDE_SET leafs
+    7,106 leafs total
+    44 max tree height
+    21 avg tree height
+    204 tiny portals
+    31,323 tree portals
+    951 outside leaves
     0 detail filled leafs
-    99 tiny portals
-    12,533 tree portals
-    4,888 sides visible
-    2,900 makefaces
-    1,234 merged
-    1,712 subdivided
-    1,337 nodes pruned
-    4 tiny portals
-    1,143 player-occupiable leaves
-      258 clusters of leaves
-      893 vis portals
-        1 SOLID | DETAIL_WALL | MIST | MIRROR_INSIDE_SET leafs
-      226 SOLID leafs
-      889 EMPTY leafs
-      254 MIST | MIRROR_INSIDE_SET | TRANSLUCENT | DETAIL leafs
-        5 SOLID | MIST | MIRROR_INSIDE_SET leafs
-    1,375 leafs total
-    34 max tree height
-    20 avg tree height
-    3,073 edges added by tjunctions
-    3,132 faces optimized through MWT
-    9,495 triangles computed from MWT
-      998 faces created via optimization of MWT triangles
-    9,468 edges
-    4,366 faces
+    204 tiny portals
+    31,323 tree portals
+    13,990 sides visible
+    8,191 makefaces
+    3,117 merged
+    1,967 subdivided
+    2,809 nodes pruned
+    49 tiny portals
+    3,120 player-occupiable leaves
+    1,044 clusters of leaves
+    3,235 vis portals
+    1,148 SOLID leafs
+    2,463 EMPTY leafs
+      657 MIST | MIRROR_INSIDE_SET | TRANSLUCENT | DETAIL leafs
+       29 SOLID | MIST | MIRROR_INSIDE_SET leafs
+    4,297 leafs total
+    44 max tree height
+    23 avg tree height
+         3 edges degenerated
+         1 faces degenerated
+     5,441 edges added by tjunctions
+     6,370 faces optimized through MWT
+    18,748 triangles computed from MWT
+     1,538 faces created via optimization of MWT triangles
+    18,753 edges
+     8,578 faces
 Processing hull 1...
+WARNING: huge winding
 Processing hull 2...
+WARNING: huge winding
+WARNING: huge winding
 Writing multiplayerMap1.bsp as Quake BSP bsp29
 Wrote multiplayerMap1.bsp
 
 count   lump name    byte size 
       1 models               64
-    987 planes            19740
-   4861 vertexes          58332
-   1374 nodes             32976
-    427 texinfos          17080
-   4366 faces             87320
-   1869 clipnodes         14952
-   1144 leafs             32032
-   5822 marksurfaces      11644
-   9469 edges             37876
-  18463 surfedges         73852
-      9 textures         136320
+   2211 planes            44220
+   9640 vertexes         115680
+   4296 nodes            103104
+   1352 texinfos          54080
+   8578 faces            171560
+   4087 clipnodes         32696
+   3121 leafs             87388
+  10954 marksurfaces      21908
+  18754 edges             75016
+  36574 surfedges        146296
+     20 textures         169104
         lightdata             0
         visdata               0
-        entdata             943
+        entdata            1026
 
-0.625s seconds elapsed
+1.011s seconds elapsed
 
 
