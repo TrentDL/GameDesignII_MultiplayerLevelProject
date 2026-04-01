@@ -10,7 +10,7 @@ I also made a video walkthrough talking a little about it.
 
 
 
-##=====  HOW TO PLAY ======
+# HOW TO PLAY
 
 **1.  Buy Quake 1**
 
