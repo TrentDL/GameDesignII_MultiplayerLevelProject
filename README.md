@@ -11,7 +11,7 @@ I also made a video walkthrough talking a little about it.
 
 
 # HOW TO PLAY (Ironwail version)
-any other version of quake may not work the steam version did not, at least for me.
+any other version of quake may not work. The steam version did not, at least for me.
 
 **1.  Buy Quake 1**
 
