@@ -3,4 +3,5 @@
 
 This project is meant to be a Quake deathmatch map for 3-8 players It's working title is "PawnBase" For more info about the production process please check out the wiki tab of this repository
 
+The latest version of the map is here in the release section [link](https://github.com/TrentDL/GameDesignII_MultiplayerLevelProject/releases/tag/v1.0.0) to download and play it. Enjoy.
 [![Walkthrough of 'Pawn Base' a Rayman Raving Rabbids inspired multiplayer map.](https://img.youtube.com/vi/vCHpCH0UNE4/0.jpg)](https://www.youtube.com/watch?v=vCHpCH0UNE4)
