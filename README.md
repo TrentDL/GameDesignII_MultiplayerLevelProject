@@ -11,30 +11,40 @@ I also made a video walkthrough talking a little about it.
 
 
 # HOW TO PLAY (Ironwail version)
-any other version of quake may not work. The steam version did not, at least for me.
 
 **1.  Buy Quake 1**
+
+Buy on steam to get the Pak files that Ironwail needs to run.
 
 **2. Download Ironwail**
 
 Grab the latest release from the Ironwail GitHub page: https://github.com/andrei-drexler/ironwail/releases. Download the Windows zip (e.g. ironwail-0.x.x-win64.zip).
 
-**3. Extract Ironwail into your Quake folder**
+**2. Extract Ironwail into it**
 
-Unzip the contents directly into your Quake directory:
-H:\Stuff I might have bought H\apps\Steam\steamapps\common\Quake\
-You should end up with ironwail.exe sitting alongside the id1 folder and all the other files you saw in your earlier screenshot.
+Unzip the Ironwail download so ironwail.exe is inside H:\Ironwail\.
+**3. Create the id1 folder**
+you'll need to create a folder if you have not installed this before
 
-**4. Place your BSP in the maps folder**
+for example
+H:\Ironwail\id1\
 
-Copy PawnBase1.bsp into:
-H:\Stuff I might have bought H\apps\Steam\steamapps\common\Quake\id1\maps\
-Create the maps folder if it doesn't already exist.
+**4. Copy the game data into id1**
 
-**5. Launch your map**
-You have two options:
-Option A — Double-click and use the console:
+Ironwail needs the original Quake game files to run. Go to your Steam install's id1 folder:
+H:\Stuff I might have bought H\apps\Steam\steamapps\common\Quake\id1\
+Copy pak0.pak (and pak1.pak if it's there) into your new H:\Ironwail\id1\ folder. These are the base game data files that every Quake engine needs.
 
-Run ironwail.exe directly.
-Press ~ to open the console.
-Type map PawnBase1 and hit Enter.
+**5. Create the maps folder**
+
+For example 
+H:\Ironwail\id1\maps\
+
+**6. Place your BSP**
+
+for example
+Copy PawnBase1.bsp into H:\Ironwail\id1\maps\.
+
+**7. Launch the map**
+
+Either run ironwail.exe and use the console (~ then map PawnBase1)
