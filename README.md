@@ -10,17 +10,31 @@ I also made a video walkthrough talking a little about it.
 
 
 
-# HOW TO PLAY (Steam Release)
+# HOW TO PLAY (Ironwail version)
+any other version of quake may not work the steam version did not, at least for me.
 
 **1.  Buy Quake 1**
 
-**2. Place the BSP file in the correct folder**
-Copy PawnBase1.bsp into the maps folder inside id1. For me, the full path would be:
-H:\Stuff I might have bought H\apps\Steam\steamapps\common\Quake\id1\maps\
-If the maps folder doesn't exist inside id1, create it.
+**2. Download Ironwail**
 
-**4. Launch the map using the in-game console:**
-   
-Launch Quake normally through Steam.
-Press the tilde key (~) to open the console.
-Type: map PawnBase1 and press Enter. (No .bsp extension needed.)
+Grab the latest release from the Ironwail GitHub page: https://github.com/andrei-drexler/ironwail/releases. Download the Windows zip (e.g. ironwail-0.x.x-win64.zip).
+
+**3. Extract Ironwail into your Quake folder**
+
+Unzip the contents directly into your Quake directory:
+H:\Stuff I might have bought H\apps\Steam\steamapps\common\Quake\
+You should end up with ironwail.exe sitting alongside the id1 folder and all the other files you saw in your earlier screenshot.
+
+**4. Place your BSP in the maps folder**
+
+Copy PawnBase1.bsp into:
+H:\Stuff I might have bought H\apps\Steam\steamapps\common\Quake\id1\maps\
+Create the maps folder if it doesn't already exist.
+
+**5. Launch your map**
+You have two options:
+Option A — Double-click and use the console:
+
+Run ironwail.exe directly.
+Press ~ to open the console.
+Type map PawnBase1 and hit Enter.
