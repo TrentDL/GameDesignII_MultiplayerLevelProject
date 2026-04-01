@@ -11,4 +11,16 @@ I also made a video walkthrough talking a little about it.
 
 
 =====  HOW TO PLAY ======
-1. Buy Quake 1
+
+**1.  Buy Quake 1**
+
+**2. Place the BSP file in the correct folder**
+Copy PawnBase1.bsp into the maps folder inside id1. For me, the full path would be:
+H:\Stuff I might have bought H\apps\Steam\steamapps\common\Quake\id1\maps\
+If the maps folder doesn't exist inside id1, create it.
+
+**4. Launch the map using the in-game console:**
+   
+Launch Quake normally through Steam.
+Press the tilde key (~) to open the console.
+Type: map PawnBase1 and press Enter. (No .bsp extension needed.)
