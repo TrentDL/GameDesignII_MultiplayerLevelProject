@@ -7,3 +7,6 @@ The latest version of the map is here in the release section [link](https://gith
 I also made a video walkthrough talking a little about it.
 
 [![Walkthrough of 'Pawn Base' a Rayman Raving Rabbids inspired multiplayer map.](https://github.com/user-attachments/assets/7731e785-282e-41f6-8b05-4fdf423a57a5)](https://www.youtube.com/watch?v=vCHpCH0UNE4)
+
+=====  HOW TO PLAY ======
+1. Buy Quake 1
